@@ -1,5 +1,5 @@
 *,*::before, *::after {
-	padding: 0;
+	padding: 0.2;
 	margin: 0;
 }
 #primero {
@@ -11,15 +11,15 @@
 	/* ESTA LÍNEA NO SE EJECUTA */
 }
 body {
-	padding: 1%;
-	font-size: 1.2rem;
+	padding: 0%;
+	font-size: 1.1rem;
 	font-family: Arial, Helvetica, sans-serif;
 }
 main {
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
-	max-width: 95%;
+	max-width: 97%;
 }
 
 
@@ -56,10 +56,14 @@ h2 {
 800 - extra bold
 900 - black */
 
+.indented-list {
+    padding-left: 20px; /* Puedes ajustar el valor según la cantidad de sangría que desees */
+}
+
 .tarjeta {
 	display: flex; /* Este es el comando que hace que los bloques queden uno al lado del otro en vez de uno debajo del otro */
 	justify-content: space-between; /* cómo se distribuye el espacio blanco entre los elementos */
-	gap: 5%; /* el espacio en blanco entre los elementos */
+	gap: 10%; /* el espacio en blanco entre los elementos */
 	list-style: none;
 }
 .tarjeta li {
